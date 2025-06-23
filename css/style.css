@@ -11,6 +11,22 @@ body {
 nav {
   background-color: white;
   padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+#destinations {
+    display: flex;
+    gap: 20px;
+}
+
+#actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 
 p {
