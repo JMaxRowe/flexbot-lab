@@ -17,6 +17,7 @@ nav {
   align-items: center;
 }
 
+
 #destinations {
     display: flex;
     gap: 20px;
@@ -94,8 +95,10 @@ nav button {
 }
 
 #subnav {
+  display: flex;
   padding: 32px 72px 0;
   background-color: white;
+  justify-content: space-between;
 }
 
 #subnav button {
@@ -105,6 +108,17 @@ nav button {
   background-color: white;
 }
 
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#trending{
+    display: flex;
+    gap: 10px;
+}
 #trending p {
   background-color: white;
   color: black;
